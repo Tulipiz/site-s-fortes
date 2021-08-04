@@ -1,0 +1,65 @@
+/* mundando o fundo  */
+body{
+    background: #f7f7f7 ;
+    font-family: Verdana ;
+    max-width: 900px;
+    margin: auto ;
+    
+}
+.brasao{
+    border: 1px solid #505050;
+    border-radius: 50%;
+}
+
+/* mudando cor das letras */
+#title, .subtitle, .post_title  {
+    color: #505050 ;
+}
+/* AUMENTAR A FONTE e CAIXA ALTA */
+#title {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+A{
+    text-decoration: line-through ;
+    color: #505050;
+}
+
+/* mudando tamanho e fonte titulo do post;Zerando a margem*/
+.post_title {
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+/* ALTERA FUNDO PRA BRANCO E CRIA ESPAÇAMENTO DO CONTEUDO
+E UMA BORDA;MARGEM;ARREDONDANDO */
+
+.post {
+    background: #fff;
+    padding: 15px;
+    border: 3px solid #000;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+.post_content {
+    margin:  0;
+    margin-bottom:15px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+/* margem da imagem da descrição do  post;largura; */
+.img_post {
+    margin-bottom: 15px;
+    width: 50%;
+}
+/* mudando simbolo da lista pra quadrado */
+.contacts_list {
+    list-style-type: none;
+    padding-left: 15px;
+}
+.contacts_list li a {
+    text-decoration: none;
+}
